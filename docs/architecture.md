@@ -1,11 +1,13 @@
-Input Images/Videos
-        ↓
-Preprocessing
-        ↓
-Object Detection
-        ↓
-Object Tracking
-        ↓
-Analytics
-        ↓
-Dashboard
+Synthetic Generator
+         ↓
+ Dataset Creation
+         ↓
+ YOLO Training
+         ↓
+ Detection
+         ↓
+ Tracking
+         ↓
+ Analytics
+         ↓
+ Dashboard
