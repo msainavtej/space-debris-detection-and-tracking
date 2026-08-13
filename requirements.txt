@@ -1,2 +1,6 @@
-numpy
-opencv-python
+gradio==6.24.0
+numpy==2.5.2
+opencv_python==5.0.0.93
+pandas==3.0.5
+plotly==6.9.0
+ultralytics==8.4.96
