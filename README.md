@@ -229,17 +229,18 @@ The project includes an interactive dashboard built using **Gradio**.
 ```text
 space-debris-detection-and-tracking/
 │
-├── data/
-├── models/
-├── outputs/
-├── reports/
+├── dashboard/app.py
+├── models/best.pt
+├── sample/ (sample input and output videos)
 │
 ├── src/
-│   ├── dataset/
+│   ├── dataset_builder/
 │   ├── training/
+|   ├── inference/
+|   ├── synthetic_data
+|   ├── synthetic_video
 │   ├── tracking/
-│   ├── analysis/
-│   └── dashboard/
+│   ├── visualization/
 │
 ├── requirements.txt
 ├── README.md
@@ -247,6 +248,29 @@ space-debris-detection-and-tracking/
 ```
 
 ---
+## Instructions on how to use:-
+
+### Clone the repository
+ 
+ git clone https://github.com/msainavtej/space-debris-detection-and-tracking.git
+ 
+ cd space-debris-detection-and-tracking 
+
+### Create a virtual environment
+ 
+ python3 -m venv venv
+ 
+ source venv/bin/activate
+
+### Install requirements
+ 
+ pip install -r requirements.txt
+
+### Open the Dashboard
+ 
+ python3 dashboard/app.py
+ 
+ (Copy the local URL and paste it in your browser)
 
 
 
